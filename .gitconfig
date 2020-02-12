@@ -1,0 +1,11 @@
+[user]
+    email = fadlytriansyah@gmail.com
+    name = fadlytr
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    required = true
+[credential]
+    helper = wincred
+[core]
+    autocrlf = true
