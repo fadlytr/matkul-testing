@@ -17,7 +17,7 @@ http://www.springframework.org/schema/context/spring-context.xsd">
     <aop:config>
         <aop:aspect ref="audience">
             <aop:pointcut
-                id="performance"
+                id="performance" 
                 expression="execution(** concert.ImplementPerformance.perform(..))" />
             <aop:around
                 pointcut-ref="performance"
